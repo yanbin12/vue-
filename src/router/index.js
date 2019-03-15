@@ -104,6 +104,12 @@ export default new Router({
                     component: resolve =>
                         require(["../components/page/verification.vue"], resolve),
                     meta: { title: "表单验证" }
+                },
+                {
+                    path:"/examples",
+                    component : resolve => require(["../components/page/examples.vue"],resolve),
+                    meta: { title: "watch例子" }
+
                 }
             ]
         },

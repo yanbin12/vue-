@@ -115,6 +115,11 @@
                                 title: '表单验证'
                             }
                         ]
+                    },
+                    {
+                        icon:'el-icon-lx-warn',
+                        index:"examples",
+                        title:"watch例子"
                     }
                 ]
             }
